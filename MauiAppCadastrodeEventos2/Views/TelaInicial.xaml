@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppCadastrodeEventos2.Views.TelaInicial"
+             Title="TelaInicial"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Gray" >
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                         Padding="10">
+
+        <Image Source="cadastro.png"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   HeightRequest="150"
+                   WidthRequest="150" />
+
+        <Label 
+                Text="CADASTRO DE EVENTOS"
+                FontFamily="LuckiestGuy"
+                FontAttributes="Bold"
+                FontSize="25"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                TextColor="Indigo" 
+                Margin="20" />
+
+
+        <Button Text="CADASTRAR EVENTO" Clicked="Button_Clicked" Margin="5"/>
+
+        <Button Text="SOBRE NÓS" Clicked="Button_Clicked_two" Margin="5" />
+
+
+    </VerticalStackLayout>
+
+</ContentPage>
